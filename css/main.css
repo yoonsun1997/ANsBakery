@@ -8,7 +8,7 @@ body{
     overflow-x:hidden;
     box-sizing:border-box;
 }
-
+a{color:white;}
 /*로고부분과 작은메뉴*/
 .logo{
     background-color: #3b3129;
