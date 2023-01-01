@@ -1,9 +1,9 @@
 $(function() {
     // 보이기 | 숨기기
     $(window).scroll(function() {
-       if ($(this).scrollTop() > 550) { //250 넘으면 버튼이 보여짐니다.
+       if ($(this).scrollTop() > 550) { //550 넘으면 버튼이 보여짐니다.
              $('#toTop').fadeIn();
-             $('#toTop').css('left', $('#sidebar').offset().left);  // #sidebar left:0 죄표
+             $('#toTop').css('left', $('#toTop').offset().left);
              } else {
              $('#toTop').fadeOut();
        }
